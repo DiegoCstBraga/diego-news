@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "diegocstbraga",
   "license": "MIT",
@@ -17,6 +19,7 @@
   "devDependencies": {
     "@types/node": "22.10.1",
     "@types/react": "18.3.12",
+    "prettier": "^3.4.2",
     "typescript": "5.7.2"
   }
 }
